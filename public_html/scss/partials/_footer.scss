@@ -19,7 +19,7 @@ footer{
             color:$footer-color;
             font-size: 1.8rem;
             &:hover,&.active{
-                color:$footer-link-hover;
+                color:lighten(complement($footer-bg),15%);
             }
         } //a end
     } //ul end
